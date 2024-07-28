@@ -1,0 +1,331 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.header-top {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.icon1{
+    width: 20px;
+    height: 20px;
+  }
+.logo1{
+    width: 220px;
+    height: 50px;
+  }
+  .info-inner {
+    margin-left: 20px; /* Espacement entre les informations */
+    display: flex; /* Utilise Flexbox pour aligner les icônes et le texte */
+    align-items: center; /* Centre les éléments verticalement */
+  }
+  
+  .iconcont {
+    margin-left: 5px; /* Espacement entre l'icône et le texte */
+  } 
+  .icontop {
+    width: 40px; /* Largeur du conteneur des icônes */
+    height: 40px; /* Hauteur du conteneur des icônes */
+    background-color: #d93e23; /* Couleur de fond pour les icônes */
+    display: flex; /* Utilise Flexbox pour centrer l'icône */
+    align-items: center; /* Centre l'icône verticalement */
+    justify-content: center; /* Centre l'icône horizontalement */
+    color: white;
+  }
+
+  .iconcont a {
+    color: black; /* Change la couleur du texte en noir */
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    font-size: 20px;
+  }
+ 
+.header-bottom {
+    background-color:  #d93e23;
+    padding: 10px 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.nav-link {
+    color: white; /* Change la couleur du texte en noir */
+    font-size: 23px;
+  }
+  .nav-item {
+    margin-left: 20px; /* Espacement entre les éléments de la liste */
+  }
+/* src/app/login/login.component.css */
+/* src/app/login/login.component.css */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1px; /* Ajuste la marge supérieure pour placer les éléments plus haut */
+  }
+  
+  .icon {
+    max-width: 100px; /* Ajuste la taille de l'icône selon tes besoins */
+    margin-bottom: 80px;
+    margin-top: 1px; /* Espace entre l'icône et le texte */
+  }
+  
+  .tw .wrap {
+    font-size: 180px; /* Augmente la taille du texte */
+    font-weight: bold; /* Optionnel : rendre le texte en gras */
+  }
+  
+  /* src/app/login/login.component.css */
+.time-table-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 0;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0; /* Supprime les marges entre les colonnes */
+    padding: 0; /* Supprime les espacements entre les colonnes */
+  }
+  
+  .service-time {
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Supprime les marges internes */
+  }
+  
+  .one, .three {
+    flex: 1;
+  }
+  
+  .middle {
+    flex: 8;
+    height: 100%;  /* Colonne du milieu plus large */
+  }
+  
+  .info-icon {
+    font-size: 3em; /* Augmente la taille des icônes */
+    margin-bottom: 10px;
+    color: white; /* Change la couleur des icônes en blanc */
+  }
+  
+  .time-table-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .time-table-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid white;
+  }
+  
+  .time-table-section li .left,
+  .time-table-section li .right {
+    flex: 1;
+  }
+  
+/* /////////////// */
+/* Styles pour la section principale */
+/* Styles pour la section principale */
+#about {
+    padding: 60px 0;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .heading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon-logo img {
+    max-width: 100px; /* Ajuste la taille du logo */
+  }
+  
+  .heading h2 {
+    margin-top: 20px;
+    font-size: 36px; /* Ajuste la taille du titre */
+    font-weight: bold;
+  }
+
+  
+  /* Styles pour les informations */
+  
+ 
+/* Styles pour la disposition des colonnes */
+.row1 {
+    display: flex;
+    flex-wrap: nowrap; /* Assure que les colonnes restent sur une seule ligne */
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+/* Styles pour les colonnes */
+.col-md-6 {
+    padding: 15px; /* Ajoute un peu de padding à l'intérieur des colonnes */
+    flex: 1; /* Assure que les colonnes prennent un espace égal */
+}
+
+/* Styles pour la boîte de message */
+.message-box {
+    padding: 20px;
+    text-align: left; /* Aligne le texte à gauche */
+    background-color: #f9f9f9; /* Optionnel : couleur de fond pour mieux visualiser la boîte */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre légère */
+}
+
+/* Styles pour l'image */
+.post-media {
+    display: flex;
+    align-items: center; /* Centre verticalement l'image dans le conteneur */
+    justify-content: center; /* Centre horizontalement l'image dans le conteneur */
+}
+
+.post-media img {
+    width: 100%; /* L'image prend toute la largeur de son conteneur */
+    height: auto; /* Maintient les proportions de l'image */
+    border-radius: 5px; /* Ajoute des coins arrondis à l'image */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .row {
+        flex-wrap: wrap; /* Permet aux colonnes de passer à la ligne sur les petits écrans */
+    }
+    .message-box, .post-media {
+        flex: 1 100%; /* Chaque élément prend toute la largeur disponible sur petits écrans */
+    }
+}
+
+ 
+.card-body{
+    background-color:  #d93e23;
+    color: white;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement le contenu */
+    justify-content: center; /* Centre verticalement le contenu */
+    text-align: center; /* Centre le texte à l'intérieur de la carte */
+    padding: 15px; /* Réduit le padding à l'intérieur de la carte */
+    border: 1px solid #ddd; /* Bordure légère autour de la carte */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-width: 300px; /* Réduit la largeur maximale de la carte */
+    margin: auto; /* Centre la carte dans la colonne */
+}
+
+/* Styles pour les icônes de service */
+.icon-service img {
+    width: 50px; /* Réduit la taille des icônes */
+    height: auto; /* Conserve les proportions de l'image */
+    margin-bottom: 10px; /* Espace en dessous de l'icône */
+}
+
+/* Ajuster la taille du texte dans la carte */
+.card-body1 h4 {
+    font-size: 1.2rem; /* Réduit la taille du titre */
+    margin: 10px 0; /* Ajoute de l'espace au-dessus et en dessous du titre */
+    color: white;
+    
+}
+
+.card-body1 p {
+    font-size: 0.9rem; /* Réduit la taille du texte */
+    margin: 0; /* Supprime les marges par défaut */
+    color: white;
+}
+
+/* Styles pour le conteneur global */
+.container2 {
+    background-color: #d93e23;
+    padding: 20px; /* Ajoute du padding autour du conteneur */
+    /* Ajustez la largeur et la hauteur si nécessaire */
+    max-width: 100%; /* Assure que le conteneur ne dépasse pas cette largeur */
+    margin: 0 ; /* Centre le conteneur */
+}
+/* Style pour container2 */
+
+/* Style pour la colonne des cartes */
+.col-md-8 {
+    flex: 0 0 66.6667%; /* Colonne prend 8/12 de la largeur */
+}
+
+/* Style pour la colonne du formulaire */
+.col-md-4 {
+    flex: 0 0 33.3333%; /* Colonne prend 4/12 de la largeur */
+}
+
+/* Style pour les cartes */
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le formulaire */
+.appointment-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les éléments du formulaire */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #d93e23;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-item1 {
+    margin-left: 500px; /* Espacement entre les éléments de la liste */
+  }
